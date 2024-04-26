@@ -39,8 +39,11 @@ main {
 
 #gameCanvas {
   border: 1px solid red;
-  margin: auto;
-  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
   z-index: 1;
 }
 
