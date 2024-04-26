@@ -165,5 +165,6 @@ const game = new Phaser.Game(config);
 
 gameStartBtn.addEventListener("click", () => {
   gameStartDiv.style.display = "none";
+  gameCanvas.style.display = "block";
   game.scene.resume("scene-game");
 });
